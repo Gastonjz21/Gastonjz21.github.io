@@ -545,6 +545,7 @@ background: #98FB98;
     .nav-menu_visible {
         left: 0;
     }
+    
 
     
 }
@@ -563,6 +564,11 @@ background: #98FB98;
     .item{
         width: 100%;
         float: none;
+    }
+
+    .fa-truck, .fa-box {
+        color: #64a223;
+        font-size: 100px;
     }
 
 }
