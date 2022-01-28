@@ -251,9 +251,10 @@ h2{
     padding: 10px;
 }
 
-.fa-truck, .fa-box {
+.fa-truck, .fa-box, .fa-id-badge, .fa-people-carry {
     color: #64a223;
     font-size: 100px;
+    margin-bottom: 30px;
 }
 
 .item:hover{
@@ -564,11 +565,6 @@ background: #98FB98;
     .item{
         width: 100%;
         float: none;
-    }
-
-    .fa-truck, .fa-box {
-        color: #64a223;
-        font-size: 100px;
     }
 
 }
