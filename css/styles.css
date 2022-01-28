@@ -251,6 +251,11 @@ h2{
     padding: 10px;
 }
 
+.fa-truck, .fa-box {
+    color: #64a223;
+    font-size: 100px;
+}
+
 .item:hover{
     transform: rotate(3deg) scale(1.1);
 }
