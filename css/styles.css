@@ -193,6 +193,7 @@ nav{
     line-height: 80px;
     justify-content: center;
     width: max-content;
+    z-index: 14;
 }
 
 ul{
@@ -588,6 +589,7 @@ background: #98FB98;
 
     header{
         height: 60px;
+        z-index: 14;
     }
 
     nav{
@@ -601,6 +603,7 @@ background: #98FB98;
         top: 60px;
         width: 100%;
         padding: 20px 0;
+        z-index: 14;
 
         height: calc(100% - 60px);
         overflow-y: auto;
