@@ -579,8 +579,12 @@ background: #98FB98;
         left: 80%;
         top: 50%;
         transform: translate(-80%, -50%);
-        z-index: 12;
+        z-index: 2;
         display: flex;
+    }
+
+    .img-device img {
+        width: 50px;
     }
  
 }
@@ -708,8 +712,12 @@ background: #98FB98;
         left: 80%;
         top: 50%;
         transform: translate(-80%, -50%);
-        z-index: 14;
+        z-index: 2;
         display: flex;
+    }
+
+    .img-device img {
+        width: 50px;
     }
     
 
@@ -739,8 +747,12 @@ background: #98FB98;
         left: 75%;
         top: 50%;
         transform: translate(-75%, -50%);
-        z-index: 12;
+        z-index: 2;
         display: flex;
+    }
+
+    .img-device img {
+        width: 50px;
     }
 
     
