@@ -139,7 +139,7 @@ height: 100vh;
     z-index: 10;
 }
 
-/**.img-device img {
+.img-device {
     position: absolute;
     background-color: #ffffff;
     font-size: 100px;
@@ -148,8 +148,8 @@ height: 100vh;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    display: none;
-}**/
+    display: flex;
+}
 
 
 header{
