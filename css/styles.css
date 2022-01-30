@@ -659,7 +659,7 @@ border-right: 2px solid #fff;
     }
     
     .layer.layer3 {
-        background: #1878C7;
+        background: #06B936;
         box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
         transform: skewX(-45deg) translateX(-400px);
         z-index: 5;
@@ -673,7 +673,7 @@ border-right: 2px solid #fff;
     }
     
     .layer.layer5 {
-        background: #1878C7;
+        background: #06B936;
         box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
         transform: skewX(45deg) translateX(-200px);
         z-index: 2;
