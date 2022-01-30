@@ -61,24 +61,93 @@ body{
 }
 
 .contain {
+    position: relative;
     width: 100%;
     height: 100vh;
     background: #c4d69c;
-    background-size: cover;
-    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.layer.layer1 {
+.layer {
 position: absolute;
 top: 0;
 left: -50%;
 width: 100%;
 height: 100vh;
-background: #64a223;
+}
+
+.layer.layer1 {
+    background: #e1306c;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(-45deg) translateX(-400px);
+    z-index: 0;
 }
 
 .layer.layer2 {
+    background: #05D47C;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(-45deg) translateX(-500px);
+    z-index: 3;
+}
+
+.layer.layer3 {
+    background: #1878C7;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(-45deg) translateX(-600px);
+    z-index: 5;
+}
+
+.layer.layer4 {
+    background: #c4d69c;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(-45deg) translateX(-700px);
+    z-index: 10;
+}
+
+.layer.layer5 {
+    background: #1878C7;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(45deg) translateX(-400px);
+    z-index: 2;
+}
+
+.layer.layer6 {
+    background: #e1306c;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(45deg) translateX(-500px);
+    z-index: 4;
+}
+
+.layer.layer7 {
+    background: #05D47C;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(45deg) translateX(-600px);
+    z-index: 6;
+}
+
+.layer.layer8 {
+    background: #c4d69c;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(45deg) translateX(-700px);
+    z-index: 8;
+}
+
+.layer.layer9 {
+    background: transparent;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+    transform: skewX(45deg) translateX(-700px);
+    z-index: 10;
+}
+
+.img-device {
     position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 14;
+    display: none;
 }
 
 
@@ -89,7 +158,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 13;
 }
 
 .cabecera {
@@ -501,6 +570,17 @@ background: #98FB98;
     a #logo {
         display: none;
     }
+
+    .img-device {
+        position: absolute;
+        background-color: #ffffff;
+        border-radius: 50%;
+        left: 80%;
+        top: 50%;
+        transform: translate(-80%, -50%);
+        z-index: 14;
+        display: flex;
+    }
  
 }
 
@@ -561,6 +641,73 @@ background: #98FB98;
     .nav-menu_visible {
         left: 0;
     }
+
+    .layer.layer1 {
+        background: #e1306c;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(-45deg) translateX(-200px);
+        z-index: 0;
+    }
+    
+    .layer.layer2 {
+        background: #05D47C;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(-45deg) translateX(-300px);
+        z-index: 3;
+    }
+    
+    .layer.layer3 {
+        background: #1878C7;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(-45deg) translateX(-400px);
+        z-index: 5;
+    }
+    
+    .layer.layer4 {
+        background: #c4d69c;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(-45deg) translateX(-500px);
+        z-index: 10;
+    }
+    
+    .layer.layer5 {
+        background: #1878C7;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(45deg) translateX(-200px);
+        z-index: 2;
+    }
+    
+    .layer.layer6 {
+        background: #e1306c;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(45deg) translateX(-300px);
+        z-index: 4;
+    }
+    
+    .layer.layer7 {
+        background: #05D47C;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(45deg) translateX(-400px);
+        z-index: 6;
+    }
+    
+    .layer.layer8 {
+        background: #c4d69c;
+        box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+        transform: skewX(45deg) translateX(-500px);
+        z-index: 8;
+    }
+
+    .img-device {
+        position: absolute;
+        background-color: #ffffff;
+        border-radius: 50%;
+        left: 80%;
+        top: 50%;
+        transform: translate(-80%, -50%);
+        z-index: 14;
+        display: flex;
+    }
     
 
     
@@ -581,5 +728,18 @@ background: #98FB98;
         width: 100%;
         float: none;
     }
+
+    .img-device {
+        position: absolute;
+        background-color: #ffffff;
+        border-radius: 50%;
+        left: 75%;
+        top: 50%;
+        transform: translate(-75%, -50%);
+        z-index: 14;
+        display: flex;
+    }
+
+    
 
 }
