@@ -733,7 +733,7 @@ border-right: 2px solid #fff;
     .img-device {
         position: absolute;
         background-color: #ffffff;
-        font-size: 100px;
+        font-size: 100px 100px;
         border-radius: 50%;
         left: 50%;
         top: 50%;
