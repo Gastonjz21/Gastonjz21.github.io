@@ -581,6 +581,18 @@ border-right: 2px solid #fff;
     a #logo {
         display: none;
     }
+
+    .img-device {
+        position: absolute;
+        background-color: #ffffff;
+        font-size: 200px 200px;
+        border-radius: 50%;
+        left: 80%;
+        top: 50%;
+        transform: translate(-80%, -50%);
+        z-index: 2;
+        display: flex;
+    }
  
 }
 
@@ -735,9 +747,9 @@ border-right: 2px solid #fff;
         background-color: #ffffff;
         font-size: 200px 200px;
         border-radius: 50%;
-        left: 50%;
+        left: 80%;
         top: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-80%, -50%);
         z-index: 2;
         display: flex;
     }
