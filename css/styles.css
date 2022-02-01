@@ -301,11 +301,54 @@ h2{
   padding: 35px;
 }
 
-.nosotros{
-    width: 100%;
+.bggrey {
+    padding: 20px 5px;
+	width: 100%;
+    background: #ffffff;
+}
+
+section{
+	width: 100%;
+	text-align: center;
+}
+
+section .title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    color: #1d1d1d;
+	margin: 0px 0px 11px;
+}
+
+
+section .title h1.no-subtitle:after {
+    content: "";
+    background: #c4d696;
+    width: 200px;
+    height: 8px;
     display: block;
-    background-color: #FEFFA7;
-    padding: 20px;
+    margin: 50px auto 70px auto;
+}
+
+.p-description {
+	padding: 20px;
+}
+
+p {
+    color: #565656;
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    text-align: center;
+	margin: 10px auto 50px auto;
+}
+
+span {
+	font-weight: bold;
 }
 
 .nosotrosid{
@@ -321,10 +364,14 @@ h2{
 
 .item{
     display: inline-block;
-    padding: 40px;
+    padding: 20px;
     overflow: hidden;
     transition: all .3s ease-in-out;
     vertical-align: middle;
+}
+
+.item p {
+    font-size: 22px;
 }
 
 #allsitems{
@@ -336,7 +383,7 @@ h2{
 
 .fa-truck, .fa-box, .fa-id-badge, .fa-people-carry {
     color: #64a223;
-    font-size: 100px;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
