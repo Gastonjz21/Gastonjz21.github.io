@@ -382,7 +382,7 @@ span {
 
 .item{
     display: inline-block;
-    padding: 20px;
+    padding: 40px;
     overflow: hidden;
     vertical-align: middle;
     transition: all .3s ease-in-out;
