@@ -378,7 +378,6 @@ span {
 .container {
     background-color: #ffffff;
     width: 100%;
-    margin-top: 80px;
 }
 
 .item{
@@ -386,7 +385,6 @@ span {
     padding: 20px;
     overflow: hidden;
     vertical-align: middle;
-    margin: 10px;
     transition: all .3s ease-in-out;
 }
 
@@ -407,6 +405,8 @@ span {
     margin-bottom: 30px;
     transition: all .3s ease-in-out;
 }
+
+
 
 .i-h:hover{
     transform: rotate(3deg) scale(1.1);
