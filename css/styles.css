@@ -224,6 +224,7 @@ nav ul li a:hover,
     background: #A5FFD6;
     box-shadow: 0px 2px 0px #26DA87;
     transition: 0.5s;
+    color: #64a223;
 }
 
 .nav-toggle {
